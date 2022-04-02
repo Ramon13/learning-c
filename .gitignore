@@ -1,0 +1,5 @@
+*
+!.gitignore
+!*.c
+!deitel/
+!k-and-r/
