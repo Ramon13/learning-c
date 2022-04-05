@@ -2,4 +2,5 @@
 !.gitignore
 !*.c
 !deitel/
+!deitel/ch2/
 !k-and-r/
