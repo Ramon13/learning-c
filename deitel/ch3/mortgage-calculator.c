@@ -11,7 +11,7 @@ a = mortgage amount
 r = interest rate
 t = mortgage term
 
-i = (a + (a * r * t) / (t / 12) )
+i = (a + (a * r * t)) / (t / 12) 
 =========================================
 
 Initialize payable_interest to zero
