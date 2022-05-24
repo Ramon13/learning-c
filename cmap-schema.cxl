@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmap xmlns:dcterms="http://purl.org/dc/terms/" xmlns="http://cmap.ihmc.us/xml/cmap/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#">
+    <res-meta>
+        <dc:title>The C Programming Language</dc:title>
+        <dc:creator>
+            <vcard:FN>Ramon</vcard:FN>
+            <vcard:EMAIL>ramoncosta1029@gmail.com</vcard:EMAIL>
+            <vcard:ORG>
+                <vcard:Orgname>me</vcard:Orgname>
+            </vcard:ORG>
+        </dc:creator>
+        <dc:contributor>
+            <vcard:FN>Ramon</vcard:FN>
+            <vcard:EMAIL>ramoncosta1029@gmail.com</vcard:EMAIL>
+            <vcard:ORG>
+                <vcard:Orgname>me</vcard:Orgname>
+            </vcard:ORG>
+        </dc:contributor>
+        <dcterms:rightsHolder>
+            <vcard:FN>Ramon</vcard:FN>
+            <vcard:EMAIL>ramoncosta1029@gmail.com</vcard:EMAIL>
+            <vcard:ORG>
+                <vcard:Orgname>me</vcard:Orgname>
+            </vcard:ORG>
+        </dcterms:rightsHolder>
+        <dcterms:created>2022-05-24T12:26:26-03:00</dcterms:created>
+        <dcterms:modified>2022-05-24T17:47:56-03:00</dcterms:modified>
+        <dc:language>pt</dc:language>
+        <dc:format>x-cmap/x-storable</dc:format>
+        <dc:publisher>FIHMC CmapTools 6.04</dc:publisher>
+        <dc:extent>4776 bytes</dc:extent>
+        <dc:source>cmap:1Y26JCBNY-1Y3BDDH-1:1Y26JCDYD-T64Y94-Z:1Y2ZJH5S7-W0L8MD-82</dc:source>
+    </res-meta>
+    <map width="712" height="345">
+        <concept-list>
+            <concept id="1Y2ZK613J-3ZYCZZ-218" label="Pass by reference if memory is low and&#xa;execution efficiency is a concern."/>
+            <concept id="1Y2ZJJ684-W4KZLT-NQ" label="Pointers"/>
+            <concept id="1Y2ZJNPMH-1THBBVK-11K" label="Structures are always passed&#xa;by value."/>
+            <concept id="1Y2ZK1JB1-13M913T-1P8" label="Pass by value if memory is in&#xa;abundance and efficiency is not a &#xa;major concern, this enforce the&#xa;principle of least privilege."/>
+            <concept id="1Y2ZJKPMV-208PFHV-QP" label="The array is automatically passed&#xa;to a function by reference"/>
+            <concept id="1Y2ZJSSB9-14GTXNH-18Y" label="Using pointers to pass a structure&#xa;to a function can save memory space.&#xa;In a machine with four-byte address. a&#xa;copy of four bytes is made rather than&#xa;a copy of a possibly large structure."/>
+        </concept-list>
+        <linking-phrase-list>
+            <linking-phrase id="1Y2ZJKPMX-135380X-QS" label="Function Args"/>
+        </linking-phrase-list>
+        <connection-list>
+            <connection id="1Y2ZK613K-4Y8XCY-21C" from-id="1Y2ZJKPMX-135380X-QS" to-id="1Y2ZK613J-3ZYCZZ-218"/>
+            <connection id="1Y2ZJSSBC-16SQV5J-191" from-id="1Y2ZJKPMX-135380X-QS" to-id="1Y2ZJSSB9-14GTXNH-18Y"/>
+            <connection id="1Y2ZK1JB2-1Y6D2HP-1PC" from-id="1Y2ZJKPMX-135380X-QS" to-id="1Y2ZK1JB1-13M913T-1P8"/>
+            <connection id="1Y2ZJKPMZ-1TKPBL8-R3" from-id="1Y2ZJKPMX-135380X-QS" to-id="1Y2ZJKPMV-208PFHV-QP"/>
+            <connection id="1Y2ZJKPMY-KN6Y5-QX" from-id="1Y2ZJJ684-W4KZLT-NQ" to-id="1Y2ZJKPMX-135380X-QS"/>
+            <connection id="1Y2ZJNPMJ-21DC3JN-11N" from-id="1Y2ZJKPMX-135380X-QS" to-id="1Y2ZJNPMH-1THBBVK-11K"/>
+        </connection-list>
+        <concept-appearance-list>
+            <concept-appearance id="1Y2ZK613J-3ZYCZZ-218" x="686" y="492" width="261" height="45" font-name="Arial" font-size="13" font-style="bold" font-color="255,255,255,255" text-margin="4" background-color="62,121,196,255" border-color="11,18,122,255"
+                border-style="solid" border-thickness="2" border-shape="rounded-rectangle" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1"/>
+            <concept-appearance id="1Y2ZJJ684-W4KZLT-NQ" x="160" y="511" width="70" height="27" font-name="Arial" font-size="13" font-style="bold" font-color="255,255,255,255" text-margin="4" background-color="62,121,196,255" border-color="11,18,122,255"
+                border-style="solid" border-thickness="2" border-shape="rounded-rectangle" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1"/>
+            <concept-appearance id="1Y2ZJNPMH-1THBBVK-11K" x="477" y="338" width="201" height="45" font-name="Arial" font-size="13" font-style="bold" font-color="255,255,255,255" text-margin="4" background-color="62,121,196,255"
+                border-color="11,18,122,255" border-style="solid" border-thickness="2" border-shape="rounded-rectangle" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1">
+                <localized-style begin="15" end="21" font-style="bold"/>
+                <localized-style begin="28" end="29" font-style="not-italic"/>
+                <localized-style begin="29" end="38" font-style="italic"/>
+            </concept-appearance>
+            <concept-appearance id="1Y2ZK1JB1-13M913T-1P8" x="720" y="560" width="230" height="75" font-name="Arial" font-size="13" font-style="bold" font-color="255,255,255,255" text-margin="4" background-color="62,121,196,255"
+                border-color="11,18,122,255" border-style="solid" border-thickness="2" border-shape="rounded-rectangle" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1">
+                <localized-style begin="110" end="126" font-style="italic"/>
+            </concept-appearance>
+            <concept-appearance id="1Y2ZJKPMV-208PFHV-QP" x="407" y="278" width="226" height="45" font-name="Arial" font-size="13" font-style="bold" font-color="255,255,255,255" text-margin="4" background-color="62,121,196,255" border-color="11,18,122,255"
+                border-style="solid" border-thickness="2" border-shape="rounded-rectangle" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1">
+                <localized-style begin="48" end="60" font-style="italic"/>
+            </concept-appearance>
+            <concept-appearance id="1Y2ZJSSB9-14GTXNH-18Y" x="541" y="417" width="254" height="90" font-name="Arial" font-size="13" font-style="bold" font-color="255,255,255,255" text-margin="4" background-color="62,121,196,255"
+                border-color="11,18,122,255" border-style="solid" border-thickness="2" border-shape="rounded-rectangle" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1"/>
+        </concept-appearance-list>
+        <linking-phrase-appearance-list>
+            <linking-phrase-appearance id="1Y2ZJKPMX-135380X-QS" x="227" y="443" width="83" height="13" font-name="Arial" font-size="12" font-style="bold" font-color="215,234,237,255" text-margin="1" background-color="0,0,255,0" border-color="0,0,0,255"
+                border-style="none" border-thickness="1" border-shape="rectangle" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1"/>
+        </linking-phrase-appearance-list>
+        <connection-appearance-list>
+            <connection-appearance id="1Y2ZK613K-4Y8XCY-21C" from-pos="center" to-pos="center" color="215,234,237,255" style="solid" thickness="1" arrowhead="if-to-concept-and-slopes-up"/>
+            <connection-appearance id="1Y2ZJSSBC-16SQV5J-191" from-pos="center" to-pos="center" color="215,234,237,255" style="solid" thickness="1" arrowhead="if-to-concept-and-slopes-up"/>
+            <connection-appearance id="1Y2ZK1JB2-1Y6D2HP-1PC" from-pos="center" to-pos="center" color="215,234,237,255" style="solid" thickness="1" arrowhead="if-to-concept-and-slopes-up"/>
+            <connection-appearance id="1Y2ZJKPMZ-1TKPBL8-R3" from-pos="center" to-pos="center" color="215,234,237,255" style="solid" thickness="1" arrowhead="if-to-concept-and-slopes-up"/>
+            <connection-appearance id="1Y2ZJKPMY-KN6Y5-QX" from-pos="center" to-pos="center" color="215,234,237,255" style="solid" thickness="1" arrowhead="if-to-concept-and-slopes-up"/>
+            <connection-appearance id="1Y2ZJNPMJ-21DC3JN-11N" from-pos="center" to-pos="center" color="215,234,237,255" style="solid" thickness="1" arrowhead="if-to-concept-and-slopes-up"/>
+        </connection-appearance-list>
+        <style-sheet-list>
+            <style-sheet id="_Default_">
+                <map-style background-color="0,0,61,255" image-style="not-drawn" image-top-left="0,0"/>
+                <concept-style font-name="Arial" font-size="13" font-style="bold" font-color="255,255,255,255" text-margin="4" background-color="62,121,196,255" background-image-style="full" border-color="11,18,122,255" border-style="solid"
+                    border-thickness="2" border-shape="rounded-rectangle" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1"/>
+                <linking-phrase-style font-name="Arial" font-size="12" font-style="bold" font-color="215,234,237,255" text-margin="1" background-color="0,0,255,0" background-image-style="full" border-color="0,0,0,255" border-style="none"
+                    border-thickness="1" border-shape="rectangle" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1"/>
+                <connection-style color="215,234,237,255" style="solid" thickness="1" type="straight" arrowhead="if-to-concept-and-slopes-up"/>
+                <resource-style font-name="SanSerif" font-size="12" font-style="plain" font-color="0,0,0,255" background-color="192,192,192,255"/>
+            </style-sheet>
+            <style-sheet id="_LatestChanges_">
+                <concept-style font-name="Arial" font-size="13" font-style="bold" font-color="255,255,255,255" text-margin="4" background-color="62,121,196,255" border-color="11,18,122,255" border-style="solid" border-thickness="2"
+                    border-shape="rounded-rectangle" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1"/>
+                <linking-phrase-style font-name="Arial" font-size="12" font-style="bold" font-color="215,234,237,255" text-margin="1" background-color="0,0,255,0" border-color="0,0,0,255" border-style="none" border-thickness="1" border-shape="rectangle"
+                    text-alignment="center" shadow-color="none" min-width="-1" min-height="-1"/>
+                <connection-style color="215,234,237,255" style="solid" thickness="1" arrowhead="if-to-concept-and-slopes-up"/>
+                <resource-style font-name="SanSerif" font-size="12" font-style="plain" font-color="0,0,0,255" background-color="192,192,192,255"/>
+            </style-sheet>
+        </style-sheet-list>
+        <extra-graphical-properties-list>
+            <properties-list id="1Y2ZJH5S7-W0L8MD-82">
+                <property key="StyleSheetGroup_0" value="//*@!#$%%^&amp;*()() No Grouped StyleSheets @"/>
+            </properties-list>
+        </extra-graphical-properties-list>
+    </map>
+</cmap>
